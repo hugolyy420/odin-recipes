@@ -37,7 +37,8 @@ body {
     background-color:white;
     padding: 15px;
     text-align: center;
-    margin: 15px 0;
+    margin: 15px auto;
+    width: 500px;
 }
 
 img {
