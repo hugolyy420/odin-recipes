@@ -15,36 +15,62 @@ body {
     background-color: white;
 }
 
-.list {
+.home-food-list {
     border: 5px dotted;
     padding: 10px;
     margin: 10px 0;
 }
 
-.list ul{
+.home-food-list ul {
     text-align: center;
-    padding: 0;
 }
 
-.list li {
+.home-food-list li {
     display: inline-block;
-    margin: 0 40px;
+    margin: 30px;
     padding: 25px;
     border-radius: 1cm;
     background-color: rgb(255, 254, 250);
-    
+}
+
+.food-title {
+    background-color:white;
+    padding: 15px;
+    text-align: center;
+    margin: 15px 0;
 }
 
 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 50px auto;
+}
+
+.description-block p {
+    font-weight:bold;
+    font-size:18px;
+}
+
+.description-block,
+.ingredients-block,
+.steps-block {
+    background-color:rgb(255, 255, 255);
+    padding: 5px;
+    margin: 50px;
+}
+
+.description-h,
+.description-p,
+.ingredients-block h2,
+.steps-block h2 {
+    margin: 15px;
 }
 
 .bold {
     font-weight: bold;
 }
 
-ol li {
+.ingredients-block li,
+.steps-block li {
     font-style:italic;
+    margin: 15px 0;
 }
